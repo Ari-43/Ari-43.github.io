@@ -1,3 +1,30 @@
+/* Navigation Bar */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: Orange;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	padding: 12px 12px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav li a:hover {
+	background-color: DarkGrey;
+}
+
+
+/* Main */
 body {
 	background-color: lightcyan;
 }
@@ -25,3 +52,4 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
