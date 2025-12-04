@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import '@fontsource-variable/comfortaa';
+@import "./rose-pine-tailwindcss/rose-pine-tailwind-v4/rose-pine-pine.css";
+
+* {
+	text-align: center;
+	font-family: 'Comfortaa Variable', 'Arial', system-ui;
+	font-size: 1rem;
+
+	color: var(--color-rose-pine-text);
+	background-color: var(--color-rose-pine-base);
+}
+
+body {
+	margin: 6.25%;
+	place-content: center;
+}
+
+h1 {
+	font-size: 5em;
+
+	border-bottom: 0.05em solid var(--color-rose-pine-iris);
+	border-radius: 0.25em;
+	width: 23rem;
+	margin: auto;
+	margin-bottom: 0.25em;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: auto;
+	margin-top: 1.5625%;
+	margin-bottom: 0.25em;
+}
+
+ul {
+	max-width: 50rem;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	place-content: center;
+}
+
+li {
+	height: 5rem;
+	border: 0.25rem solid var(--color-rose-pine-iris);
+	border-radius: 0.5rem;
+	width: 15rem;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: var(--color-rose-pine-surface);
+	place-content: center;
+	transition: all .1s ease-in;
+}
+
+a li:hover {
+	background: var(--color-rose-pine-highlight-med);
+	transform: scale(1.0125);
+}
+
+.email > span:nth-child(2) {
+	display: none;
+}
+.email > span {
+	/* Find a way of making this inherit from the <li> it is inside of */
+	background: var(--color-rose-pine-surface);
+}
+
