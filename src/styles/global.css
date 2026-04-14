@@ -17,13 +17,13 @@ body {
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 
 	border-bottom: 0.05em solid var(--color-rose-pine-iris);
 	border-radius: 0.25em;
-	width: 23rem;
+	width: 20rem;
 	margin: auto;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.2em;
 }
 
 h2 {
@@ -53,16 +53,20 @@ li {
 	transition: all .1s ease-in;
 }
 
-a li:hover {
+.pronouns {
+	color: var(--color-rose-pine-foam);
+}
+
+a > li:hover {
 	background: var(--color-rose-pine-highlight-med);
 	transform: scale(1.0125);
+}
+
+i, sup, a, span {
+	color: inherit;
+	background: inherit;
 }
 
 .email > span:nth-child(2) {
 	display: none;
 }
-.email > span {
-	/* Find a way of making this inherit from the <li> it is inside of */
-	background: var(--color-rose-pine-surface);
-}
-
